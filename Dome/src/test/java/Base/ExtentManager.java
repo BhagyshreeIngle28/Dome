@@ -16,7 +16,7 @@ public class ExtentManager {
 	public static ExtentReports createInstance() {
 		
 		String fileName = getReportName();
-		String directory = System.getProperty("user.dir") + "/reports/";
+		String directory = System.getProperty("user.dir") + "/test-output/reports/";
 		//Create New folder 
 		new File(directory).mkdirs();
 		String path = directory + fileName;
