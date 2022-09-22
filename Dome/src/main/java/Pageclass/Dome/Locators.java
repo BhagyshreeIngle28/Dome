@@ -204,9 +204,6 @@ public class Locators extends Baseclass {
 		System.out.println("Click Complete order");
 		Thread.sleep(2000);
 		
-		cardnumber.sendKeys("424242424242");
-		System.out.println("Entered cardnumber");
-		Thread.sleep(200);
 		
 		
 		
