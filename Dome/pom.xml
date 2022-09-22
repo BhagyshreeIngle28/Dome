@@ -82,8 +82,12 @@
           <configuration>
 					<!-- TestNG Suite XML files list for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+					<executionBrowser>${browser}</executionBrowser>
+					<appURL>${url}</appURL>
+					</systemPropertyVariables>
 				</configuration>
         </plugin>
         <plugin>
