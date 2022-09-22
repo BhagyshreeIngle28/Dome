@@ -85,7 +85,7 @@
 						<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-					<executionBrowser>chrome</executionBrowser>
+					<executionBrowser>${browser}</executionBrowser>
 					<appURL>${url}</appURL>
 					</systemPropertyVariables>
 				</configuration>
